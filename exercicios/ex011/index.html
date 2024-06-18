@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audios em html5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/Take Me Out To The Ballgame - Freedom Trail Studio.mp3" type="audio/mpeg">
+        <source src="media/Take Me Out To The Ballgame - Freedom Trail Studio.ogg" type="audio/ogg">
+        <source src="media/Take Me Out To The Ballgame - Freedom Trail Studio.wav" type="audio/wav"> 
+        <!-- Evite arquivos wav arquivos muito pesados-->
+        <p>Infelizmente seu navegador nao consegue reproduzir audio. <a href="media/Take Me Out To The Ballgame - Freedom Trail Studio.mp3">Clique aqui para baixa-lo</a></p>
+    </audio>
+    <!-- MP3 - WAV - OGG -->
+</body>
+</html> 

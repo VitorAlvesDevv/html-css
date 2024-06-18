@@ -1,0 +1,72 @@
+Propriedades de borda:
+
+   largura	->	border-width: 10px;
+
+   estilo	->	border-style: solid;	 (sólida)
+					     : dashed;	 (tracejada)
+					     : dotted;	 (pontilhada)
+					     : double;	 (dupla)
+					     : groove;	 (em 3d)
+
+   cor 	->	border-color: red;
+
+  - Shorthand: 
+
+	border: 10px solid red (largura, estilo, cor)
+
+
+Propriedades de padding:
+
+	padding-top: 10px;	   (de topo)
+	padding-right: 10px;	   (à direita)
+	padding-bottom: 10px    (de baixo)
+	padding-left: 10px;	   (à esquerda)
+
+  - Shorthand: 
+	
+	padding: 15px 10px 15px 10px;    (sent. horário: top, right, bottom, left)
+	padding: 10px; 		(os 4 lados iguais a 10px)
+	padding: 15px 10px;	 (cima e baixo 15px / esquerda e direita 10px)
+
+		   
+Acessar DevTools do Chrome: botão direito no corpo do site -> inspecionar
+
+box-level = block-level
+
+PROPRIEDADES DE ESTILO DE CADA PARTE ANATÔMICA DE UMA CAIXA:
+
+PROPRIEDADES - MARGIN: As principais Propriedades de Estilo para margin são: " margin-top " (margin da parte de cima de um elemento), " margin-right " (parte direita), " margin-bottom " (parte de baixo) e " margin-left " (parte esquerda) - O valor dessas propriedades geralmente é inserido em px.
+
+Nota: Para centralizar um elemento (CAIXA) na tela, de forma automática , devemos usar a Propriedade de Estilo " margin " com o valor " auto ". Isso fará com que elementos (caixas) sejam centralizados horizontalmente de forma automática, mesmo que o tamanho da tela mude.
+
+Como no "padding", também existe um SENTIDO/ORDEM correta PARA INSERIR as propriedades de margin descritas logo acima. A "direção" correta é: 
+
+1) - Top  
+2) - Right  
+3) - Bottom 
+4) - left
+
+Exemplo:
+
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+
+É importante declarar nessa ordem, pois é necessário ser condizente com a direção e sentido padrão do Modelo de Caixas do DevTools , que segue a direção de um ponteiro de relógio.
+
+Também podemos utilizar uma Shorthand para inserir e simplificar todas essas declarações de margin em uma única linha, exemplo: " margin: 15px 10px 10px 15px; "
+
+OBSERVAÇÃO: Mesmo em shorthands como a do exemplo acima, os valores devem ser declarados na ordem orientada ( top, right, bottom e left ), para que consigamos nos nortear e especificar corretamente o espaçamento certo o para respectivo lado/sentido.
+
+Se quisermos configurar os quatro lados do margin de uma só vez e constituir um margin igualitário (mesmo valor nos quatro lados), podemos simplesmente inserir uma única vez a Propriedade "margin" com o valor em px desejado, esse valor será inserido nos quatro lados do elemento automaticamente , exemplo: " margin: 10px; "
+
+IMPORTANTE : Se quisermos centralizar um elemento (CAIXA) de forma automática, mas ainda assim , alterar o margin do sentido de cima (top) ou de baixo (bottom), devemos inserir a seguinte declaração shorthand: " margin: 10px auto 10px auto; " 
+
+Também podemos colocar só dois valores em uma propriedade margin, exemplo: " margin: 10px 20px; " - Quando colocamos somente dois valores, significa que os sentidos de CIMA E DE BAIXO são representados pelo primeiro valor e os sentidos de ESQUERDA E DIREITA são representados pelo segundo valor .
+
+PROPRIEDADES - OUTLINE: As principais Propriedades de Estilo para outline são: " outline-width " (espessura da outline), " outline-style " (estilo da outline) e " outline-color " (cor da outline).
+
+Os valores mais utilizados para a Propriedade de Estilo que define o estilo de uma outline (outline-style), são: " solid " (linha sólida), " dashed " (outline tracejada), " dotted " (outline pontilhada), " double " (linha dupla) e o " groove " (outline "3d")
+
+Sendo que podemos utilizar uma shorthand para inserir e simplificar todas essas declarações de outline em uma única linha, exemplo: " outline: 10px solid black; " (Siga a ordem de inserção de valores do exemplo na hora de usar uma shorthand, caso contrário não funcionará corretamente)

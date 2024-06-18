@@ -1,0 +1,22 @@
+Ctrl + Shift + P = envelopamento ou encapsulamento de frases 
+<!-- - comentarios em html
+/* */ - comentarios em css
+weight- peso da fonte
+
+  Tipos de format()
+         -opentype (otf)
+         -truetype (ttf)
+         -embedded-opentype
+         -truetype-aat (Apple Advanced Typography)
+         -svg
+
+EM HTML É "ID" = EM CSS É "#"
+EM HTML É Class = em CSS é .
+
+****
+
+  # = id
+       . = class
+       : = pseudo-class
+       :: = pseudo-element
+       > = children
