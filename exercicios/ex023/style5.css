@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.destaque {
+    background-color: chartreuse ;
+}
+
+col.cnome {
+    background-color: chartreuse;
+}
+
+col.csexo {
+    background-color: yellow;
+}
+
+col.cidade {
+    background-color: red;
+}
+
+col.cprof {
+    background: whitesmoke;
+}
